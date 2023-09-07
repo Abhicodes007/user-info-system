@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Slab:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-----The screen--->
+    <div class="Container">
+        <!------the content box-------->
+        <div class="content-box">
+            <div class="users-btn">
+                <button class="highlight-user-button" id="user1-btn" user1-btn>User 1</button>
+                <button class="btn" id="user2-btn" user2-btn>User 2</button>
+                <button class="btn" id="user3-btn" user3-btn>User 3</button>
+                <button class="btn" id="user4-btn" user4-btn>User 4</button>
+                <button class="btn" id="user5-btn" user5-btn>User 5</button>
+                <button class="btn" id="user6-btn" user6-btn>User 6</button>
+            </div>
+            <div class="heading-container">
+                <div class="heading-btn">
+                    <button class="btn2" id="info-btn1" activity-Info>Recent Activity</button>
+                    <button class="btn2" id="info-btn2" iinfo-btn2>Contact Info</button>
+                    <button class="btn2" id="info-btn3" profile-btn>Profile Info</button>
+                    <button class="btn2" id="info-btn4" address-btn>Address Info</button>
+                    <button class="btn2" id="info-btn5" personal-btn>Personal Info</button>
+                    <button class="btn2" id="info-btn6" account-btn>Account Info</button>
+                </div>
+                <div>
+                    <div class="detail-container">
+                        <div activity information>
+                            <div class="info-container-user1">
+                                <h2>User 1 Recent Activity</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div> 
+
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="contact-info">
+                        <div contact Info>
+                            <div class="info-container-user1">
+                                <h2>User1 Contact Info</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="profile-info">
+                        <div profile Info>
+                            <div class="info-container-user1">
+                                <h2>User1 Profile Info</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="address-info">
+                        <div address Info>
+                            <div class="info-container-user1">
+                                <h2>User1 Address Info</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="personal-info">
+                        <div personal Info>
+                            <div class="info-container-user1">
+                                <h2>User1 Personal Info</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="account-info">
+                        <div account Info>
+                            <div class="info-container-user1">
+                                <h2>User1 Account Info</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quod quaerat,
+                                    exercitationem est eaque vel impedit tempore sint earum expedita dolorum? Rem
+                                    voluptatibus quod quisquam nemo hic quia molestias repudiandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum, reprehenderit
+                                    eveniet esse iure velit consequatur aperiam voluptas id. Excepturi minus officia ex
+                                    ab numquam blanditiis cupiditate repellat maxime distinctio.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit? Odio,
+                                    dolores fugit! Commodi voluptate natus harum dolorem, doloribus repudiandae
+                                    quibusdam architecto, suscipit maxime unde rem asperiores iste tenetur laboriosam.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit exercitationem
+                                    impedit ab voluptas cum quisquam dolor sit, amet consectetur adipisicing elit. Cum
+                                    laudantium voluptatum quae distinctio recusandae iste voluptatibus blanditiis,
+                                    laborum perspiciatis sapiente pariatur similique doloremque itaque consectetur
+                                    consequatur!
+
+                                </p>
+                            </div>
+                            <div class="list-item">
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                    <li>List Item Text</li>
+                                </ul>
+                                <ul>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                    <li class="list">List Item Text</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <div class="left"></div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="image.jpg" style="width:200px">
+                                    <div class="right"></div>
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
